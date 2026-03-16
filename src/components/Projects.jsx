@@ -11,7 +11,7 @@ const projects = [
     image: taskManager,
     tags: ['React', 'Tailwind CSS', 'JavaScript', 'Redux'],
     github: 'https://github.com/Vaibhav6234/Food-Delivery-App',
-    live: 'https://example.com',
+    live: 'https://vaibhav-food-delivery-app.netlify.app/',
     badge: 'Featured',
   },
   {
