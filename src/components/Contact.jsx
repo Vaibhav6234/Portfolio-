@@ -28,7 +28,7 @@ const Contact = () => {
           <h2 className="text-4xl md:text-5xl font-black tracking-tight text-white">
             Get In <span className="gradient-text">Touch</span>
           </h2>
-          <div className="mt-4 w-16 h-1 bg-gradient-to-r from-violet-500 to-sky-500 rounded-full mx-auto" />
+          <div className="mt-4 w-16 h-1 bg-linear-to-r from-violet-500 to-sky-500 rounded-full mx-auto" />
           <p className="mt-6 text-slate-400 max-w-2xl mx-auto">
             I'm always open to discussing new projects, creative ideas, or opportunities to be part of something amazing.
           </p>
@@ -144,7 +144,7 @@ const Contact = () => {
 
             <button
               type="submit"
-              className="w-full py-4 rounded-xl bg-gradient-to-r from-violet-600 to-violet-500 hover:from-violet-500 hover:to-violet-400 text-white font-semibold transition-all duration-300 hover:shadow-[0_0_30px_rgba(124,58,237,0.4)] hover:-translate-y-0.5 active:translate-y-0"
+              className="w-full py-4 rounded-xl bg-linear-to-r from-violet-600 to-violet-500 hover:from-violet-500 hover:to-violet-400 text-white font-semibold transition-all duration-300 hover:shadow-[0_0_30px_rgba(124,58,237,0.4)] hover:-translate-y-0.5 active:translate-y-0"
             >
               Send Message →
             </button>

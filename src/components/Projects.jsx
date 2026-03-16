@@ -56,7 +56,7 @@ const Projects = () => {
           <h2 className="text-4xl md:text-5xl font-black tracking-tight text-white">
             Featured <span className="gradient-text">Projects</span>
           </h2>
-          <div className="mt-4 w-16 h-1 bg-gradient-to-r from-violet-500 to-sky-500 rounded-full mx-auto" />
+          <div className="mt-4 w-16 h-1 bg-linear-to-r from-violet-500 to-sky-500 rounded-full mx-auto" />
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -70,7 +70,7 @@ const Projects = () => {
               <div className="h-48 overflow-hidden relative">
                 {p.image ? (
                   <>
-                    <div className="absolute inset-0 bg-gradient-to-t from-[#0a0f1e]/80 to-transparent z-10" />
+                    <div className="absolute inset-0 bg-linear-to-t from-[#0a0f1e]/80 to-transparent z-10" />
                     <img
                       src={p.image}
                       alt={p.name}
@@ -78,7 +78,7 @@ const Projects = () => {
                     />
                   </>
                 ) : (
-                  <div className="w-full h-full bg-gradient-to-br from-violet-900/60 to-slate-900 flex items-center justify-center">
+                  <div className="w-full h-full bg-linear-to-br from-violet-900/60 to-slate-900 flex items-center justify-center">
                     <span className="text-6xl">🌐</span>
                   </div>
                 )}
