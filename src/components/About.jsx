@@ -57,7 +57,7 @@ const About = () => {
               <div className="space-y-1">
                 <div><span className="text-violet-400">const</span> <span className="text-sky-300">vaibhav</span> <span className="text-slate-400">=</span> {'{'}</div>
                 <div className="pl-6"><span className="text-emerald-400">name</span><span className="text-slate-400">:</span> <span className="text-amber-300">"Vaibhav"</span><span className="text-slate-400">,</span></div>
-                <div className="pl-6"><span className="text-emerald-400">role</span><span className="text-slate-400">:</span> <span className="text-amber-300">"Frontend Developer"</span><span className="text-slate-400">,</span></div>
+                <div className="pl-6"><span className="text-emerald-400">role</span><span className="text-slate-400">:</span> <span className="text-amber-300">"MERN Stack Developer"</span><span className="text-slate-400">,</span></div>
                 <div className="pl-6"><span className="text-emerald-400">experience</span><span className="text-slate-400">:</span> <span className="text-amber-300">"9 months"</span><span className="text-slate-400">,</span></div>
                 <div className="pl-6"><span className="text-emerald-400">stack</span><span className="text-slate-400">:</span> <span className="text-slate-400">[</span></div>
                 <div className="pl-12"><span className="text-amber-300">"React.js"</span><span className="text-slate-400">,</span></div>
