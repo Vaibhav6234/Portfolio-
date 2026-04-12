@@ -1,3 +1,4 @@
+import { BiLogoVisualStudio } from "react-icons/bi";
 import { useInView } from "../hooks/useInView";
 import {
   FaHtml5,
@@ -17,6 +18,9 @@ import {
   SiCplusplus,
   SiGooglechrome,
   SiVercel,
+  SiRender,
+  SiMongoose,
+  SiPostman,
 } from "react-icons/si";
 
 const skillCategories = [
@@ -54,9 +58,10 @@ const skillCategories = [
     skills: [
       { name: "Git", icon: <FaGitAlt />, color: "#F05032" },
       { name: "GitHub", icon: <FaGithub />, color: "#e2e8f0" },
-      { name: "VS Code", icon: <FaCode />, color: "#007ACC" },
-      { name: "Chrome DevTools", icon: <SiGooglechrome />, color: "#4285F4" },
+      { name: "VS Code", icon: <BiLogoVisualStudio />, color: "#007ACC" },
+      { name: "Postman", icon: <SiPostman />, color: "#e0531f" },
       { name: "Vercel", icon: <SiVercel />, color: "#000000" },
+      { name: "Render", icon: <SiRender />, color: "#ffffff" },
     ],
   },
   {
@@ -69,6 +74,7 @@ const skillCategories = [
       { name: "Node.js", icon: <FaNodeJs />, color: "#339933" },
       { name: "Express.js", icon: <SiExpress />, color: "#e2e8f0" },
       { name: "MongoDB", icon: <SiMongodb />, color: "#47A248" },
+      { name: "Mongoose", icon: <SiMongoose />, color: "#FF5E5E" },
     ],
   },
 ];

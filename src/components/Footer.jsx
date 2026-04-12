@@ -70,7 +70,7 @@ const Footer = () => {
             © {new Date().getFullYear()} <span className="text-violet-400 font-medium">Vaibhav</span>. All rights reserved.
           </p>
           <p className="flex items-center gap-1.5">
-            Built with <FaHeart className="text-rose-500 text-xs" /> using React & Tailwind CSS
+            Built  using React & Tailwind CSS
           </p>
         </div>
       </div>

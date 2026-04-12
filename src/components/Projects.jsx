@@ -2,6 +2,7 @@ import { useInView } from '../hooks/useInView';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import EMS  from '../assets/EMS.png';
 import foodDelivery from '../assets/Food-delivery.png'; 
+import rentalCars from '../assets/Rental Cars.png';
 
 const projects = [
     {
@@ -12,28 +13,28 @@ const projects = [
     tags: ['React.js', 'Tailwind CSS', 'Context API', 'Local Storage'],
     github: 'https://github.com/Vaibhav6234/Employee-Management-System-',
     live: 'https://employee-management-system-psi-lac.vercel.app/',
-    badge: 'Featured',
+    badge: 'Live',
   },
   {
     id: 2,
+    name: 'Rental Cars',
+    description: 'A car rental application that allows users to browse and rent cars online. The app features a user-friendly interface, secure authentication, and a comprehensive database of available cars. ',
+    image: rentalCars,
+    tags: ['React.js', 'Express.js', 'MongoDB', 'Tailwind CSS', 'API', 'Node.js', 'Mongoose', 'JWT'],
+    github: 'https://github.com/Vaibhav6234/Rental-Cars',
+    live: 'https://rental-cars-five.vercel.app/',
+    badge: 'Live',
+  },
+    {
+    id: 3,
     name: 'Food Delivery App',
     description: 'A food delivery app with real-time order tracking and delivery updates. User can order food from various restaurants and track their order in real-time.',
     image: foodDelivery,
     tags: ['React', 'Tailwind CSS', 'JavaScript', 'Redux'],
     github: 'https://github.com/Vaibhav6234/Food-Delivery-App',
     live: 'https://vaibhav-food-delivery-app.netlify.app/',
-    badge: 'Featured',
-  },
-  {
-    id: 3,
-    name: 'Portfolio Website',
-    description: 'Personal developer portfolio built with React.js and Tailwind CSS. Features a dark theme, smooth animations, responsive layout, and sections for skills, projects, and contact.',
-    image: null,
-    tags: ['React', 'Tailwind CSS', 'Vite'],
-    github: 'https://github.com',
-    live: 'https://example.com',
     badge: 'Live',
-  }
+  },
 ];
 
 const badgeColors = {
