@@ -43,8 +43,9 @@ const Experience = () => {
               {/* Header */}
               <div className="flex flex-wrap items-start justify-between gap-4 mb-6">
                 <div>
-                  <h3 className="text-2xl font-bold text-white">Frontend Developer</h3>
-                  <p className="text-violet-400 font-medium mt-1">Self-Directed / Freelance Projects</p>
+                  <h3 className="text-2xl font-bold text-white">Associate Software developer </h3>
+                  <p className='Text-white text-lg font-semibold'>Frontend Developer Role</p>
+                  <p className="text-violet-400 font-medium mt-1">Devscrew</p>
                 </div>
                 <div className="flex flex-col items-end gap-2">
                   <span className="px-4 py-1.5 bg-violet-600/15 border border-violet-500/30 text-violet-300 text-sm rounded-full font-medium">

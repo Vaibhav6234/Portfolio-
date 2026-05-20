@@ -5,7 +5,7 @@ import resumePDF from '../assets/Vaibhav_Resume.pdf';
 
 const ROLES = [
   'Frontend Developer',
-  'React Developer',
+  'MERN Developer',
   'UI Enthusiast',
   'Problem Solver',
 ];
