@@ -1,4 +1,6 @@
 import { BiLogoVisualStudio } from "react-icons/bi";
+import { BsTypescript } from "react-icons/bs";
+import { TbBrandNextjs } from "react-icons/tb";
 import { useInView } from "../hooks/useInView";
 import {
   FaHtml5,
@@ -34,6 +36,7 @@ const skillCategories = [
       { name: "HTML5", icon: <FaHtml5 />, color: "#E44D26" },
       { name: "CSS3", icon: <FaCss3Alt />, color: "#1572B6" },
       { name: "React.js", icon: <FaReact />, color: "#61DAFB" },
+      { name: "Next.js", icon: <TbBrandNextjs  />, color: "" },
       { name: "Tailwind CSS", icon: <SiTailwindcss />, color: "#38BDF8" },
       { name: "SCSS", icon: <FaSass />, color: "#CD6799" },
     ],
@@ -47,6 +50,7 @@ const skillCategories = [
     skills: [
       { name: "C++", icon: <SiCplusplus />, color: "#00599C" },
       { name: "JavaScript", icon: <FaJs />, color: "#F7DF1E" },
+      { name: "TypeScript", icon: <BsTypescript  />, color: "#3178c6" },
     ],
   },
   {
