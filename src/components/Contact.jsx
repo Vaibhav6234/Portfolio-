@@ -47,7 +47,7 @@ const Contact = () => {
 
             <div className="space-y-4">
               {[
-                { icon: <HiMail />, label: 'Email', value: 'vaibhavnimesh002@example.com', href: 'mailto:vaibhavnimesh002@example.com' },
+                { icon: <HiMail />, label: 'Email', value: 'vaibhavnimesh002@gmail.com', href: 'mailto:vaibhavnimesh002@gmail.com' },
                 { icon: <HiPhone />, label: 'Phone', value: '+91 8860710428', href: 'tel:+918860710428' },
                 { icon: <HiLocationMarker />, label: 'Location', value: 'India', href: null },
               ].map((info) => (
