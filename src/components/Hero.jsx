@@ -72,7 +72,7 @@ const Hero = () => {
           </div>
 
           <p className="text-slate-400 text-lg leading-relaxed max-w-lg animate-fade-in-up delay-300">
-            Frontend Developer with <span className="text-violet-400 font-semibold">9 months</span> of experience
+            Frontend Developer with <span className="text-violet-400 font-semibold">1 year</span> of experience
             building responsive and scalable web applications. Passionate about clean code and performance optimization.
           </p>
 

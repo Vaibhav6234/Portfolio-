@@ -3,7 +3,7 @@ import { FaCode, FaServer, FaBriefcase } from 'react-icons/fa';
 import { HiAcademicCap, HiLightningBolt, HiHeart } from 'react-icons/hi';
 
 const stats = [
-  { label: 'Months Experience', value: '9+', icon: <FaBriefcase /> },
+  { label: 'year Experience', value: '1', icon: <FaBriefcase /> },
   { label: 'Projects Completed', value: '8+', icon: <FaCode /> },
   { label: 'Technologies', value: '11+', icon: <FaServer /> },
 ];
@@ -77,7 +77,7 @@ const About = () => {
           <div className="space-y-8">
             <p className="text-slate-300 text-lg leading-relaxed">
               I'm a <span className="text-white font-semibold">Full-Stack Developer</span> with a deep passion for crafting
-              beautiful and performant web experiences. With <span className="text-violet-400 font-semibold">9 months</span> of
+              beautiful and performant web experiences. With <span className="text-violet-400 font-semibold">1 year</span> of
               hands-on experience, I specialize in building responsive UIs using <span className="text-sky-400 font-semibold">React.js</span> on
               the frontend and scalable APIs with <span className="text-sky-400 font-semibold">Node.js, Express & MongoDB</span> on the backend.
             </p>
