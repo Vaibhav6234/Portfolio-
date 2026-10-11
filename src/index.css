@@ -312,15 +312,16 @@ button {
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  border-top: 1px solid var(--line);
-  border-left: 1px solid var(--line);
+  gap: 1.5rem;
 }
 
 .skill-group {
-  min-height: 190px;
-  padding: 1.5rem;
-  border-right: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
+  min-height: 220px;
+  padding: 1.6rem 1.8rem 1.8rem;
+  border: 1px solid rgba(32, 33, 31, 0.15);
+  border-radius: 1.1rem;
+  background: rgba(255, 255, 255, 0.12);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.35);
 }
 
 .skill-group h3,
@@ -337,9 +338,9 @@ button {
 .project-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.55rem 1rem;
+  gap: 0.8rem 0.75rem;
   padding: 0;
-  margin: 1.25rem 0 0;
+  margin: 1.4rem 0 0;
   list-style: none;
 }
 
@@ -348,6 +349,34 @@ button {
   color: var(--muted);
   font-size: 0.88rem;
   line-height: 1.6;
+}
+
+.skill-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.38rem 0.8rem 0.42rem 0.5rem;
+  border-radius: 999px;
+  border: 1px solid rgba(32, 33, 31, 0.14);
+  background: rgba(142, 135, 124, 0.12);
+  color: rgba(32, 33, 31, 0.9);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+.skill-icon {
+  min-width: 1.35rem;
+  height: 1.35rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.12rem 0.2rem;
+  border-radius: 50%;
+  border: 1px solid rgba(32, 33, 31, 0.08);
+  background: rgba(32, 33, 31, 0.06);
+  color: rgba(32, 33, 31, 0.7);
+  font-size: 0.54rem;
+  font-weight: 700;
+  letter-spacing: -0.06em;
 }
 
 .projects-grid {

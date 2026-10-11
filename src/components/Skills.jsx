@@ -1,19 +1,43 @@
 const skillCategories = [
   {
     category: 'Frontend',
-    skills: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'Next.js', 'Tailwind CSS', 'SCSS'],
+    skills: [
+      { name: 'HTML', icon: '<>' },
+      { name: 'CSS', icon: '{}' },
+      { name: 'JavaScript', icon: 'JS' },
+      { name: 'TypeScript', icon: 'TS' },
+      { name: 'React', icon: '⚛' },
+      { name: 'Next.js', icon: 'N' },
+      { name: 'Tailwind CSS', icon: '' },
+      { name: 'SCSS', icon: '' },
+    ],
   },
   {
     category: 'Backend',
-    skills: ['Node.js', 'Express', 'MongoDB', 'Mongoose'],
+    skills: [
+      { name: 'Node.js', icon: 'N' },
+      { name: 'Express', icon: 'Ex' },
+      { name: 'MongoDB', icon: 'M' },
+      { name: 'Mongoose', icon: 'M' },
+    ],
   },
   {
     category: 'Tools',
-    skills: ['Git', 'GitHub', 'VS Code', 'Postman', 'Vercel', 'Render'],
+    skills: [
+      { name: 'Git', icon: 'G' },
+      { name: 'GitHub', icon: 'GH' },
+      { name: 'VS Code', icon: 'VS' },
+      { name: 'Postman', icon: 'P' },
+      { name: 'Vercel', icon: 'V' },
+      { name: 'Render', icon: 'R' },
+    ],
   },
   {
     category: 'Programming',
-    skills: ['C','C++'],
+    skills: [
+      { name: 'C', icon: '' },
+      { name: 'C++', icon: '' },
+    ],
   },
 ];
 
@@ -28,7 +52,14 @@ const Skills = () => (
         <article className="skill-group" key={group.category}>
           <h3>{group.category}</h3>
           <ul className="skill-list">
-            {group.skills.map((skill) => <li key={skill}>{skill}</li>)}
+            {group.skills.map((skill) => (
+              <li key={skill.name}>
+                <span className="skill-badge">
+                  {skill.icon && <span className="skill-icon">{skill.icon}</span>}
+                  <span>{skill.name}</span>
+                </span>
+              </li>
+            ))}
           </ul>
         </article>
       ))}
